@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+
+    <div class="container">
+
+    <h1>
+      Your Local Weather!
+    </h1>
+  </br>
+
+ 
+    
+    <form class="input-group-btn-4" id="search-city">
+     <input 
+      type="text" 
+      class="form-control" 
+      placeholder="Type City Name Here" 
+      autocomplete="off"
+      id = "cityName" 
+      aria-label="Recipient's username" 
+      aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+     </form>
+  
+  </br>
+  
+  
+  <ul class="Chicago">
+    <div class="row">
+      <div class="col">
+    <li><h2 id = "city">Chicago</h2> 
+      <div id="date"></div>
+      <span id= "dayday"></span> 
+      <div>🌨</div> 
+      <div><span id="temperature">20</span><span id = "celsius">℃</span></div>
+    </li></div>
+    <div class="col">
+    <li><div>Time <span id="time"></span></div>
+       <div id = "description">Breezy</div> 
+       <div>Wind: <span id= "wind">15</span> mph</div>
+       <div> Humidity: <span id="humidity">20%</span>%</div>
+      </li></div>
+    </div>
+  </ul>
+
+  <ul class="days">
+    <div class="row">
+      <div class="col">
+  <li>Tomorrow<div>☁</div><div>25℉</div></li></div>
+  <div class="col">
+  <li>Sunday<div>⛅</div><div>24℉</div></li></div>
+  <div class="col">
+  <li>Monday<div>☁</div><div>21℉</div></li></div>
+  <div class="col">
+  <li>Tuesday<div>🌨</div><div>28℉</div></li></div>
+  <div class="col">
+  <li>Wednesday<div>☁</div><div>28℉</div></li></div>
+    </div>  
+</ul>
+
+</br>
+    <script src="src/index.js"></script>
+
+</div>
+  </body>
+</html>

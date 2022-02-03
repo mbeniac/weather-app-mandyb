@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+.Chicago {
+  text-decoration: none;
+  border: solid;
+  list-style: none;
+  text-align: center;
+}
+.days {
+  list-style: none;
+  border: solid;
+  text-align: center;
+  margin: 0;
+}
