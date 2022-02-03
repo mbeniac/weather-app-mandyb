@@ -14,3 +14,6 @@ h1 {
   text-align: center;
   margin: 0;
 }
+.btn btn-outline-secondary {
+  border-radius: 50%;
+}
