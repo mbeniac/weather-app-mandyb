@@ -17,3 +17,6 @@ h1 {
 .btn btn-outline-secondary {
   border-radius: 50%;
 }
+ul {
+  list-style: none;
+}
